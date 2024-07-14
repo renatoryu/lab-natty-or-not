@@ -95,6 +95,7 @@ Inspire-se e crie histórias incríveis com o Gerador de Histórias Infantis. Co
 
 
 
+---
 **Feito com ❤️ por Renato Caetité Cruz**
-
+---
 
