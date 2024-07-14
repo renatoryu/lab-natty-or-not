@@ -1,101 +1,77 @@
 # 📖 Gerador de Histórias Infantis 📝
 
-Este projeto utiliza a API do Google Generative AI para gerar histórias infantis personalizadas, baseadas no nome do personagem, tema e palavras-chave fornecidas pelo usuário.
+## 📒 Descrição
+O Gerador de Histórias Infantis utiliza a API do Google Generative AI para criar histórias personalizadas, com base no nome do personagem, tema e palavras-chave fornecidos pelo usuário.
 
-## ✨ Funcionalidades
+## 🤖 Tecnologias Utilizadas
+- **Google Generative AI**: Criação de conteúdo de alta qualidade.
+- **FPDF**: Exportação das histórias geradas para arquivos PDF com formatação profissional.
+- **Colorama**: Melhoria da experiência do usuário no terminal.
 
-- **Histórias Personalizadas:** Gera histórias infantis únicas baseadas nas sugestões do usuário.
-- **Exportação para PDF:** Exporta as histórias geradas para arquivos PDF com formatação profissional.
-- **Inteligência Artificial:** Utiliza a avançada API do Google Generative AI para produzir conteúdo de alta qualidade.
+## 🧐 Processo de Criação
+1. **Clone o Repositório**
 
-## 🛠️ Configuração do Ambiente
+   Para começar, clone o repositório para a sua máquina local:
 
-### 1. Clone o Repositório
+   ```bash
+   git clone https://github.com/renatoryu/lab-natty-or-not.git
+   cd lab-natty-or-not
+   ```
 
-Para começar, clone o repositório para sua máquina local:
+2. **Crie e Ative o Ambiente Virtual**
 
-```bash
-git clone https://github.com/renatoryu/lab-natty-or-not.git
-cd lab-natty-or-not
-```
+   Configure um ambiente virtual para gerenciar as dependências do projeto.
 
-### 2. Crie e Ative o Ambiente Virtual
+   **Windows:**
 
-Configure um ambiente virtual para gerenciar as dependências do projeto.
+   ```bash
+   python -m venv venv
+   venv\Scripts\activate
+   ```
 
-**Windows:**
+   **macOS/Linux:**
 
-```bash
-python -m venv venv
-venv\Scripts\activate
-```
+   ```bash
+   python -m venv venv
+   source venv/bin/activate
+   ```
 
-**macOS/Linux:**
+3. **Instale as Dependências**
 
-```bash
-python -m venv venv
-source venv/bin/activate
-```
+   Com o ambiente virtual ativado, instale as dependências necessárias:
 
-### 3. Instale as Dependências
+   ```bash
+   pip install -r requirements.txt
+   ```
 
-Com o ambiente virtual ativado, instale as dependências necessárias:
+4. **Configure a Chave da API**
 
-```bash
-pip install -r requirements.txt
-```
+   Obtenha sua chave de API do Google Generative AI e substitua `sua_chave_api` no arquivo `main.py` pela sua chave de API.
 
-### 4. Configure a Chave da API
+5. **Execute o Script**
 
-Obtenha sua chave de API do Google Generative AI e substitua `sua_chave_api` no arquivo `main.py` pela sua chave de API.
+   Inicie o processo de geração de histórias executando o script principal:
 
-## 🚀 Como Usar
+   ```bash
+   python main.py
+   ```
 
-### 1. Execute o Script
+6. **Siga as Instruções no Terminal**
 
-Para iniciar o processo de geração de histórias, execute o script principal:
+   O script solicitará algumas informações para personalizar a história:
+   - Insira o nome do personagem principal.
+   - Insira o tema da história.
+   - Insira palavras-chave relevantes para a história, separadas por vírgula.
 
-```bash
-python main.py
-```
-
-### 2. Siga as Instruções no Terminal
-
-O script solicitará algumas informações para personalizar a história:
-
-- Insira o nome do personagem principal.
-- Insira o tema da história.
-- Insira palavras-chave relevantes para a história, separadas por vírgula.
-
-### 3. Visualize e Salve a História
-
-- A história gerada será exibida diretamente no terminal.
-- Um arquivo PDF com a história será salvo automaticamente como `historia_personalizada.pdf`.
-
-## 🧩 Dependências
-
-Este projeto depende das seguintes bibliotecas:
-
-- `google-generativeai`
-- `fpdf`
-- `colorama`
-
-## 💡 Observações
-
-- Certifique-se de ter o Python instalado e todas as dependências configuradas corretamente.
-- Para mais informações sobre a API do Google Generative AI, visite [Google AI](https://ai.google/).
-
-## 🤝 Contribuições e Melhorias
-
-Este é um projeto de código aberto e contribuições são bem-vindas! Se você tiver ideias ou melhorias, sinta-se à vontade para abrir um pull request ou reportar issues.
-
-## 📢 Compartilhe suas Histórias
-
-Inspire-se e crie histórias incríveis com o Gerador de Histórias Infantis. Compartilhe suas criações com amigos e familiares!
+## 🚀 Resultados
+- **Histórias Personalizadas**: Cria histórias infantis únicas baseadas nas sugestões do usuário.
+- **Exportação para PDF**: Gera arquivos PDF com formatação profissional das histórias criadas.
+- **Visualização no Terminal**: Exibe a história gerada diretamente no terminal e salva como `historia_personalizada.pdf`.
 
 
 ---
 
-**Feito com ❤️ por Renato Caetité Cruz**
+Desenvolvido com ❤️ por **Renato Caetité Cruz**.
 
 ---
+
