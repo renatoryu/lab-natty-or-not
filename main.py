@@ -6,7 +6,7 @@ from colorama import init, Fore, Style
 init(autoreset=True)
 
 # Configure sua chave da API Google AI
-api_key = "AIzaSyDbavjDZ_B3wVve-59mzaLNN-nPtzPtlVg"
+api_key = ""
 genai.configure(api_key=api_key)
 
 generation_config = {
