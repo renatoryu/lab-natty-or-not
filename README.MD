@@ -13,8 +13,8 @@ Este projeto utiliza a API do Google Generative AI para gerar histórias infanti
 ### 1. Clone o Repositório
 
 ```bash
-git clone https://github.com/seu-usuario/seu-repositorio.git
-cd seu-repositorio
+git clone https://github.com/renatoryu/lab-natty-or-not.git
+cd lab-natty-or-not
 ```
 
 ### 2. Crie e Ative o Ambiente Virtual
