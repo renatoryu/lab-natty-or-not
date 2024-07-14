@@ -93,8 +93,8 @@ Este é um projeto de código aberto e contribuições são bem-vindas! Se você
 
 Inspire-se e crie histórias incríveis com o Gerador de Histórias Infantis. Compartilhe suas criações com amigos e familiares!
 
----
+
 
 **Feito com ❤️ por Renato Caetité Cruz**
 
----
+
